@@ -250,6 +250,7 @@ section{scroll-margin-top:82px}
   .delivery-logo{flex:0 0 58px;width:58px;height:46px;margin:0}
   .delivery-action{flex:1;justify-content:flex-start;gap:7px}
 }
+.inner-main{padding-top:0}
 .values-section .section-title{margin-bottom:45px}
 .values-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
 .value-card{border:1px solid #dddccf;background:var(--paper);padding:44px 28px 40px;text-align:center;min-height:275px}
