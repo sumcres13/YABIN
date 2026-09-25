@@ -616,9 +616,8 @@ html:lang(ja) [data-i18n]{word-break:keep-all;overflow-wrap:anywhere}
 .store-details{display:flex;flex-direction:column}
 .store-details>.button{display:flex;width:max-content;align-self:center;margin-inline:auto}
 
-/* Use the home header behavior on every page: photo behind it at the top,
-   light background and dark green text after scrolling or opening the menu. */
-.inner-main{padding-top:0}
-@media(max-width:760px){
-  .site-header:not(.is-scrolled):not(.menu-open){background:transparent;box-shadow:none;color:white}
-}
+/* Keep the home header over its hero; inner pages start below an opaque header. */
+body:not([data-page="home"]) .site-header{background:#fff8ed;color:var(--ink);box-shadow:0 1px 0 rgba(21,59,55,.12)}
+.inner-main{padding-top:88px}
+@media(max-width:900px){.inner-main{padding-top:76px}}
+@media(max-width:760px){.inner-main{padding-top:70px}}
