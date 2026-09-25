@@ -1,7 +1,7 @@
 const page = document.body.dataset.page || "home";
 
 document.getElementById("site-header-mount").innerHTML = `
-  <header class="site-header ${page === "home" ? "" : "is-inner"}" id="site-header">
+  <header class="site-header" id="site-header">
     <div class="header-inner container-wide">
       <a class="company-brand" href="index.html" aria-label="ブッダ・コーポレーション ホーム" data-i18n-aria="companyHome"><img class="company-mark" src="assets/buddha-logo-enhanced.png" alt=""><span data-i18n="companyName">ブッダ・コーポレーション</span></a>
       <nav class="desktop-nav" aria-label="メインナビゲーション" data-i18n-aria="mainNavigation">

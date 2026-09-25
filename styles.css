@@ -172,11 +172,10 @@ section{scroll-margin-top:82px}
 .company-brand{display:flex;flex-direction:column;flex:none;color:inherit;line-height:1.15;white-space:nowrap}
 .company-brand span{font:700 23px/1.2 var(--serif);letter-spacing:.04em}
 .company-brand small{font:700 9px/1.2 var(--sans);letter-spacing:.24em;margin-top:4px}
-.site-header.is-inner{background:var(--cream);color:var(--ink);box-shadow:0 1px 0 rgba(21,59,55,.12)}
 .desktop-nav a[aria-current="page"]{color:var(--orange)}
 .desktop-nav a[aria-current="page"]::after{right:0}
 .footer-brand>a:first-child{font:700 clamp(1.45rem,2vw,2rem)/1.35 var(--serif)}
-.inner-main{padding-top:88px;animation:pageEnter .6s cubic-bezier(.2,.78,.25,1) both}
+.inner-main{animation:pageEnter .6s cubic-bezier(.2,.78,.25,1) both}
 @keyframes pageEnter{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 .subhero{height:clamp(320px,37vw,480px);display:flex;align-items:center;position:relative;color:white;background-position:center;background-size:cover}
 .subhero-about{background-image:url("assets/dining-room.png")}
@@ -250,7 +249,6 @@ section{scroll-margin-top:82px}
   .delivery-logo{flex:0 0 58px;width:58px;height:46px;margin:0}
   .delivery-action{flex:1;justify-content:flex-start;gap:7px}
 }
-.inner-main{padding-top:0}
 .values-section .section-title{margin-bottom:45px}
 .values-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
 .value-card{border:1px solid #dddccf;background:var(--paper);padding:44px 28px 40px;text-align:center;min-height:275px}
@@ -293,7 +291,7 @@ section{scroll-margin-top:82px}
 .delivery-card span{font-size:11px;font-weight:700;white-space:nowrap}
 .delivery-card.uber{background:#0f7541}.delivery-card.demae{background:#c94420}.delivery-card.rocket{background:#263f39}
 @media(max-width:900px){.company-brand span{font-size:20px}.representative-grid{grid-template-columns:.8fr 1.2fr;gap:35px}.booking-grid,.delivery-grid{gap:10px}.booking-card{padding:23px 17px}.delivery-card{padding:20px 15px}.delivery-card strong{font-size:17px}}
-@media(max-width:760px){.inner-main{padding-top:70px}.subhero{height:330px}.home-section-heading{display:block;text-align:center}.home-section-heading .eyebrow{justify-content:center}.home-section-heading>p{margin:20px auto 0}.home-store-grid,.home-feature,.representative-grid,.company-grid,.location-grid{grid-template-columns:1fr}.home-store-image{height:330px}.home-store-details{padding:36px 27px 42px}.home-feature>img{height:275px}.home-feature>div{padding:33px 27px}.sns-inner{display:block;text-align:center}.sns-line{width:min(100%,360px);margin:30px auto 0}.representative-profile{max-width:350px;margin:auto;text-align:center}.representative-profile img{aspect-ratio:1/1}.representative-note{padding:33px 26px}.values-grid{grid-template-columns:1fr;gap:12px}.value-card{min-height:0;padding:33px 25px}.company-grid{gap:32px}.company-table div{grid-template-columns:95px 1fr;gap:13px;font-size:12px}.store-identity .shop-logo{width:95px;height:95px}.location-grid{gap:25px}.location-grid>div:last-child{padding-left:24px}.booking-grid,.delivery-grid{grid-template-columns:1fr}.booking-card{min-height:210px}.delivery-card{min-height:96px}.delivery-card strong{font-size:20px}.subhero h1{font-size:clamp(2.4rem,8vw,3.6rem)}.inner-main{animation-duration:.5s}}
+@media(max-width:760px){.subhero{height:330px}.home-section-heading{display:block;text-align:center}.home-section-heading .eyebrow{justify-content:center}.home-section-heading>p{margin:20px auto 0}.home-store-grid,.home-feature,.representative-grid,.company-grid,.location-grid{grid-template-columns:1fr}.home-store-image{height:330px}.home-store-details{padding:36px 27px 42px}.home-feature>img{height:275px}.home-feature>div{padding:33px 27px}.sns-inner{display:block;text-align:center}.sns-line{width:min(100%,360px);margin:30px auto 0}.representative-profile{max-width:350px;margin:auto;text-align:center}.representative-profile img{aspect-ratio:1/1}.representative-note{padding:33px 26px}.values-grid{grid-template-columns:1fr;gap:12px}.value-card{min-height:0;padding:33px 25px}.company-grid{gap:32px}.company-table div{grid-template-columns:95px 1fr;gap:13px;font-size:12px}.store-identity .shop-logo{width:95px;height:95px}.location-grid{gap:25px}.location-grid>div:last-child{padding-left:24px}.booking-grid,.delivery-grid{grid-template-columns:1fr}.booking-card{min-height:210px}.delivery-card{min-height:96px}.delivery-card strong{font-size:20px}.subhero h1{font-size:clamp(2.4rem,8vw,3.6rem)}.inner-main{animation-duration:.5s}}
 @media(max-width:420px){.company-brand span{font-size:17px}.company-brand small{font-size:7px}.home-feature>img{height:240px}.company-table div{grid-template-columns:75px 1fr}.representative-note{font-size:13px}.booking-card h3{font-size:18px}}
 @media(hover:none),(pointer:coarse){.sns-line:hover,.booking-card:hover,.delivery-card:hover{transform:none}}
 @media(prefers-reduced-motion:reduce){.inner-main{animation:none}}
@@ -370,7 +368,6 @@ section{scroll-margin-top:82px}
 .location-intro{margin-bottom:25px}
 .location-intro .section-title{margin-bottom:8px}
 .map-frame{height:390px}
-.inner-main{padding-top:76px}
 .subhero{height:clamp(250px,28vw,350px)}
 .subhero-about{height:clamp(215px,23vw,295px)}
 .subhero-reservation{height:205px}
@@ -402,7 +399,7 @@ section{scroll-margin-top:82px}
 .delivery-logo img{width:100%;height:100%;object-fit:contain}
 .delivery-action{display:flex;align-items:center;gap:7px;font-size:12px;font-weight:700;white-space:nowrap}
 .gallery-slide span{font-size:15px}
-@media(max-width:900px){.booking-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.booking-card{min-height:205px}.company-grid{grid-template-columns:1fr}.company-grid>.section-title{text-align:center}.inner-main{padding-top:70px}}
+@media(max-width:900px){.booking-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.booking-card{min-height:205px}.company-grid{grid-template-columns:1fr}.company-grid>.section-title{text-align:center}}
 @media(max-width:760px){.section-pad{padding-block:46px}.hero{min-height:570px;height:86svh;max-height:760px}.hero-scrim{background:linear-gradient(180deg,#0009,#0007 40%,#000c)}.home-store-grid-solo .home-store-details{padding:28px 18px}.sns-band{padding-block:42px}.sns-inner h2{font-size:clamp(1.8rem,7vw,2.5rem)}.sns-line{margin:21px auto 0}.company-grid{gap:18px}.company-table div{padding-block:12px}.store.section-pad{padding-block:42px}.store-heading{margin-bottom:22px}.store-grid{grid-template-columns:1fr}.map-frame{height:340px}.subhero,.subhero-about,.subhero-reservation{height:230px}.booking-section.section-pad,.delivery-section.section-pad{padding-block:38px}.booking-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.booking-card{min-height:195px;padding:14px 10px}.booking-card h3{font-size:14px}.delivery-grid{grid-template-columns:1fr;gap:9px}.delivery-card{min-height:82px}.delivery-logo{height:60px;width:115px}.delivery-action{font-size:12px}.stores-gallery{padding-bottom:42px}}
 @media(max-width:440px){.booking-grid{grid-template-columns:1fr 1fr}.booking-card{min-height:185px}.booking-logo{width:54px;height:50px}.booking-card p{font-size:11px}.delivery-card{padding-inline:13px}.delivery-logo{width:100px}.map-frame{height:300px}.company-table div{grid-template-columns:85px 1fr;font-size:12px}}
 
@@ -553,7 +550,6 @@ section{scroll-margin-top:82px}
   --muted:#6d7568;
   --line:#e5ddce;
 }
-.site-header.is-inner{background:transparent;color:white;box-shadow:none}
 .site-header.is-scrolled,.site-header.menu-open{background:rgba(255,248,237,.98);color:var(--ink);box-shadow:0 1px 0 rgba(21,59,55,.12)}
 .company-brand{flex-direction:row;align-items:center;gap:10px}
 .company-brand .company-mark{width:42px;height:42px;flex:none;object-fit:contain;background:transparent;border-radius:0;padding:0}
@@ -619,3 +615,10 @@ html:lang(ja) [data-i18n]{word-break:keep-all;overflow-wrap:anywhere}
 .home-store-feature{flex:1;display:flex;flex-direction:column;justify-content:center;margin-bottom:0;padding-block:16px}
 .store-details{display:flex;flex-direction:column}
 .store-details>.button{display:flex;width:max-content;align-self:center;margin-inline:auto}
+
+/* Use the home header behavior on every page: photo behind it at the top,
+   light background and dark green text after scrolling or opening the menu. */
+.inner-main{padding-top:0}
+@media(max-width:760px){
+  .site-header:not(.is-scrolled):not(.menu-open){background:transparent;box-shadow:none;color:white}
+}
