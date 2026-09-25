@@ -552,7 +552,8 @@ section{scroll-margin-top:82px}
   --muted:#6d7568;
   --line:#e5ddce;
 }
-.site-header.is-scrolled,.site-header.menu-open,.site-header.is-inner{background:rgba(255,248,237,.98);color:var(--ink)}
+.site-header.is-inner{background:transparent;color:white;box-shadow:none}
+.site-header.is-scrolled,.site-header.menu-open{background:rgba(255,248,237,.98);color:var(--ink);box-shadow:0 1px 0 rgba(21,59,55,.12)}
 .company-brand{flex-direction:row;align-items:center;gap:10px}
 .company-brand .company-mark{width:42px;height:42px;flex:none;object-fit:contain;background:transparent;border-radius:0;padding:0}
 .company-brand span{font:700 clamp(15px,1.65vw,21px)/1.15 var(--serif);letter-spacing:.015em}
