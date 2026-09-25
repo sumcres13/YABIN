@@ -228,7 +228,7 @@ section{scroll-margin-top:82px}
 .representative-note p{margin:0 0 25px}
 .representative-note p:last-child{margin-bottom:0}
 .representative-note .note-opening{font-weight:700;color:var(--ink);font-size:17px}
-.values-section{position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(135deg,#fbf8f0 0%,var(--cream) 55%,#f6efdf 100%)}
+.values-section{position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(90deg,transparent,rgba(214,168,68,.82) 15%,rgba(220,116,24,.48) 50%,rgba(214,168,68,.82) 85%,transparent) center top / calc(100% - clamp(40px,9vw,150px)) 1px no-repeat,linear-gradient(90deg,transparent,rgba(214,168,68,.82) 15%,rgba(220,116,24,.48) 50%,rgba(214,168,68,.82) 85%,transparent) center bottom / calc(100% - clamp(40px,9vw,150px)) 1px no-repeat,linear-gradient(135deg,#fbf8f0 0%,var(--cream) 55%,#f6efdf 100%)}
 .values-section .section-title{color:var(--ink)}
 .values-section::before,.values-section::after{position:absolute;z-index:0;content:"";pointer-events:none}
 .values-section::before{top:42%;left:-15%;width:130%;height:220px;border:1px solid #dc74182b;border-radius:50%;transform:rotate(-5deg);box-shadow:0 0 0 23px #edba390d,0 0 0 24px #dc74181a,0 0 0 58px #edba390a}
